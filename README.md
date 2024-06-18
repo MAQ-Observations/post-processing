@@ -5,6 +5,10 @@ Post-processing/analysis scripts/files for MAQ-Observations:
 - Download_Data.ipynb: To specify user input, request data from database and save to a .csv file. This needs to be tested for other cases.
 - Plot_Figures.ipynb: To specify user input and plot requested input to graphs. This is still under construction.
 - Tests.ipynb: Very simple json requests to the database, also provided on https://maq-observations.nl/api/.
-- Instrument_List_v1.1: Meta-data information on the MAQ-Observations.nl database, also available at https://maq-observations.nl/instruments/.
+- Instrument_List_v1.1.xlsx: Meta-data information on the MAQ-Observations.nl database, also available at https://maq-observations.nl/instruments/.
+- MAQ-Observations_request.csv: Example file resulting from the Download_Data.ipynb notebook.
+
+Misc folder:
+Random post-processing scripts using the data from MAQ-Obsevations, not part of the core post-processing package.
 
 Please reach out to observations.maq@wur.nl in case of specific questions or requests.
