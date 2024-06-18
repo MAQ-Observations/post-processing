@@ -1,0 +1,75 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'MAQ-Observations v1.0: Veenkampen'
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Bert G.
+    family-names: Heusinkveld
+    orcid: 'https://orcid.org/0000-0001-7844-8989'
+    affiliation: >-
+      Meteorology and Air Quality, Wageningen University and
+      Research, Wageningen, the Netherlands
+    email: bert.heusinkveld@wur.nl
+  - given-names: Johannes Gerardus Martinus
+    family-names: Barten
+    email: sjoerd.barten@wur.nl
+    affiliation: >-
+      Meteorology and Air Quality, Wageningen University and
+      Research, Wageningen, the Netherlands
+    orcid: 'https://orcid.org/0000-0001-6534-1410'
+  - given-names: Juliane L.
+    affiliation: >-
+      Meteorology and Air Quality, Wageningen University and
+      Research, Wageningen, the Netherlands
+    orcid: 'https://orcid.org/0000-0003-1799-5828'
+    email: juliane.fry@wur.nl
+    family-names: Fry
+  - given-names: Molen
+    name-particle: van der
+    family-names: Michiel
+    email: michiel.vandermolen@wur.nl
+    affiliation: >-
+      Meteorology and Air Quality, Wageningen University and
+      Research, Wageningen, the Netherlands
+    orcid: 'https://orcid.org/0000-0003-4992-2420'
+  - given-names: Farhan Ramadzan
+    family-names: Nursanto
+    email: farhan.nursanto@wur.nl
+    affiliation: >-
+      Meteorology and Air Quality, Wageningen University and
+      Research, Wageningen, the Netherlands
+    orcid: 'https://orcid.org/0009-0005-1609-5424'
+  - given-names: Reinder J.
+    family-names: Ronda
+    orcid: 'https://orcid.org/0000-0001-6734-2660'
+    email: reinder.ronda@knmi.nl
+    affiliation: >-
+      Royal Netherlands Meteorological Institute, Utrecht,
+      The Netherlands
+  - given-names: Henk
+    family-names: Snellen
+    email: henk.snellen@wur.nl
+    affiliation: >-
+      Meteorology and Air Quality, Wageningen University and
+      Research, Wageningen, the Netherlands
+identifiers:
+  - type: url
+    value: 'https://maq-observations.nl/'
+    description: >-
+      Link to the main web portal to access the
+      MAQ-Observations database.
+repository-code: 'https://github.com/MAQ-Observations'
+url: 'https://maq-observations.nl/'
+keywords:
+  - Meteorology
+  - Air Quality
+  - Observations
+license: CC-BY-4.0
+commit: v1.0
+version: v1.0
+date-released: '2024-06-18'
