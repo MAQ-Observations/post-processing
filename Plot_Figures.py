@@ -1,6 +1,7 @@
 #Load modules
 
 import datetime as dt
+from fetch_data import *
 from generate_graphs import *
 
 #User defined input, specify your wishes below
@@ -18,13 +19,12 @@ variables = ['TA_2_1_1',                     #Array of variables to download, se
              'VIS_1_1_1',
              'WS_1_1_1',
              'WD_1_1_1',
-             'P_1_1_1']                                 
+             'P_1_1_1']
 API_KEY = '<ApiKey>'  #Put you API key here as a string, see https://maq-observations.nl/api/
-save_filename = 
 save_files = True                                 #True/False switch to save the generated figures
 
 
 #Run the request
 
-fetch_data(start_date,end_date,site,variables,API_KEY,save_filename)
-generate_graphs(start_date,end_date,site,variables,API_KEY,save_files)
+df = fetch_data(start_date,end_date,site,variables,API_KEY,False,'-')
+generate_graphs(save_files,df)

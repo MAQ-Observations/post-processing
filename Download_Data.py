@@ -19,10 +19,10 @@ variables = ['TA_2_1_1',                     #Array of variables to download, se
              'WS_1_1_1',
              'WD_1_1_1',
              'P_1_1_1']                                 
-API_KEY = '<ApiKey>'  #Put you API key here as a string, see https://maq-observations.nl/api/
+API_KEY = '<ApiKey>'                              #Put you API key here as a string, see https://maq-observations.nl/api/
 save_filename = 'MAQ-Observations_request.csv'    #You can define the name of the file you want to save your data to
 
 
 #Run the request:
 
-fetch_data(start_date,end_date,site,variables,API_KEY,save_filename)
+fetch_data(start_date,end_date,site,variables,API_KEY,True,save_filename)

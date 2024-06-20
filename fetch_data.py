@@ -4,7 +4,7 @@
 import pandas as pd
 import requests
 
-def fetch_data(start_date,end_date,site,variables,API_KEY,save_filename):
+def fetch_data(start_date,end_date,site,variables,API_KEY,save_file,save_filename):
     HOST_KL = 'https://maq-observations.nl'
     headers = {
         'Accept': 'application/json',
@@ -92,14 +92,19 @@ def fetch_data(start_date,end_date,site,variables,API_KEY,save_filename):
                 # Insert units as the second row
                 units_row = ['YYYY-MM-DD HH:MM:SS UTC'] + [units_info[var] for var in final_df_pivoted.columns[1:]]
                 final_df_pivoted.loc[0] = units_row
-
-                # Save the final DataFrame to a CSV file
-                final_df_pivoted.to_csv(save_filename, index=False)
-                print("Data successfully saved to "+str(save_filename))
-
+                
                 # Print a sample of the data
                 print("Sample of the data:")
                 print(final_df_pivoted.head())
+
+                if save_file == True:   
+                    # Save the final DataFrame to a CSV file
+                    final_df_pivoted.to_csv(save_filename, index=False)
+                    print("Data successfully saved to "+str(save_filename))
+                    
+                if save_file == False:
+                    return final_df_pivoted
+                   
             else:
                 print("No data was retrieved for the specified variables and date range.")
         else:
