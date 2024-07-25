@@ -1,4 +1,4 @@
-Please note that we offer a very easy to use user interface at https://maq-observations.nl/ to download data and plot graphs. The scripts provided here can be used for users who are experienced with Python (requests), or who want to automate specific processes based on the MAQ-Observations.nl database.
+Please note that we offer a very easy to use user interface at https://maq-observations.nl/ to download data (https://maq-observations.nl/data-downloads/) and plot graphs (https://maq-observations.nl/data-figures/). The scripts provided here can be used for users who are experienced with Python (requests), or who want to automate specific processes based on the MAQ-Observations.nl database.
 
 Post-processing/analysis scripts/files for MAQ-Observations:
 
