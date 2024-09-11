@@ -17,7 +17,7 @@ def fetch_data(start_date,end_date,site,variables,API_KEY,save_file,save_filenam
     end_date_str = end_date.strftime('%Y-%m-%d')
     
     # Define the endpoint to fetch metadata (streams)
-    END_POINT_METADATA = f'/wp-json/maq/v1/sites/{site}/stations/1/streams'
+    END_POINT_METADATA = f'/wp-json/maq/v1/sites/{site}/stations/{site}/streams'
     
     # Make the GET request to fetch metadata (streams)
     response_metadata = requests.get(HOST_KL + END_POINT_METADATA, headers=headers)
