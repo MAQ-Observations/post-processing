@@ -34,9 +34,9 @@ def entries_over_time(df,groupby,title,saveloc,savename,savefig):
     plt.ylabel('Number of entries')
     plt.grid(True)
     plt.legend(loc='best')
-    plt.show()
     if savefig == True:
         plt.savefig(saveloc+savename+'.png',dpi=300)
+    plt.show()
     plt.close()
         
     monthly_df = user_counts.resample('M').sum()
@@ -50,9 +50,9 @@ def entries_over_time(df,groupby,title,saveloc,savename,savefig):
     plt.legend(loc='best')
     plt.grid(True)
     plt.tight_layout()
-    plt.show()
     if savefig == True:
         plt.savefig(saveloc+savename+'_bar.png',dpi=300)
+    plt.show()
     plt.close()
     
     return
@@ -225,9 +225,9 @@ def entries_over_time_downloads(df,groupby,title,saveloc,savename,savefig):
     plt.ylabel('Number of entries')
     plt.grid(True)
     plt.legend(loc='best')
-    plt.show()
     if savefig == True:
         plt.savefig(saveloc+savename+'.png',dpi=300)
+    plt.show()
     plt.close()
         
     monthly_df = user_counts.resample('M').sum()
@@ -241,9 +241,9 @@ def entries_over_time_downloads(df,groupby,title,saveloc,savename,savefig):
     plt.legend(loc='best')
     plt.grid(True)
     plt.tight_layout()
-    plt.show()
     if savefig == True:
         plt.savefig(saveloc+savename+'_bar.png',dpi=300)
+    plt.show()
     plt.close()
     
     return
