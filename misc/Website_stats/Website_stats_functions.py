@@ -327,6 +327,7 @@ def specifics_per_input_radio(df,title,saveloc,savename,savefig):
                 'Leaf Wetness: 1_1', 'Leaf Wetness: 2_2', 'Leaf Wetness: 3_3']
 
     pattern_counts = defaultdict(int)
+    advanced = advanced[advanced['tabular_grid.1'].notnull()]
 
     for index, row in advanced.iterrows():
         parts = row['tabular_grid.1'].split('|')
