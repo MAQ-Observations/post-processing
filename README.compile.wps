@@ -1,0 +1,12 @@
+##########################################
+#	README compiling WPS		 #
+#   Sjoerd Barten, 2025/02/11		 #
+##########################################
+
+This README describes how to sucessfully compile WPS V4.1 on HPC Anunna (WUR) with locally installed netcdf and gfortran compilers in /lustre/shared/atmmod_2025/software/wrf_dependencies. The same prodecure is also tested on WPS V4.5. Run the following commands in your */WRF/ directory:
+
+./clean -a	
+./configure			(choose option 1  (serial))
+nedit configure.wps		(add < -std=legacy -fallow-argument-mismatch -fallow-invalid-boz -m64 > to FFLAGS and F77FLAGS)
+./compile
+
