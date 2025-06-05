@@ -14,14 +14,14 @@ figures_path = 'W:\\ESG\\DOW_MAQ\\MAQ_Archive\\MAQ-Observations.nl\\Admin\\GitHu
 
 #Switch to save figures, and date to include in the figure title
 savefig = True
-figdate = '2024-07-12'
+figdate = '2025-06-05'
 
 #Load .csv files in dataframe
 #Note that these .csv files are not provided due to privacy reasons. We can not make them available.
-user_reg_file = 'user-registration-user-update-2024-07-12.csv'
-oper_data_file = 'operational-data-2024-07-12.csv'
-data_figs_file = 'data-figures-2024-07-12.csv'
-data_down_file = 'data-downloads-2024-07-12.csv'
+user_reg_file = 'user-registration-user-update-2025-06-05.csv'
+oper_data_file = 'operational-data-2025-06-05.csv'
+data_figs_file = 'data-figures-2025-06-05.csv'
+data_down_file = 'data-downloads-2025-06-05.csv'
 
 user_reg = pd.read_csv(stats_path+user_reg_file)
 oper_data = pd.read_csv(stats_path+oper_data_file)
