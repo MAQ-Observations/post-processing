@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16811523.svg)](https://doi.org/10.5281/zenodo.16811523)
+
 Please note that we offer a very easy to use user interface at https://maq-observations.nl/ to download data (https://maq-observations.nl/data-downloads/) and plot graphs (https://maq-observations.nl/data-figures/). The scripts provided here can be used for users who are experienced with Python (requests), or who want to automate specific processes based on the MAQ-Observations.nl database.
 
 Post-processing/analysis scripts/files for MAQ-Observations:
@@ -14,3 +16,7 @@ Misc folder:
 Random post-processing scripts using the data from MAQ-Obsevations, not part of the core post-processing package.
 
 Please reach out to observations.maq@wur.nl in case of specific questions or requests.
+
+How to cite this material:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16811523.svg)](https://doi.org/10.5281/zenodo.16811523)
+
