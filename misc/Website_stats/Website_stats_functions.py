@@ -83,7 +83,7 @@ def historical_graphs_streams(df,saveloc,savename,savefig):
     plt.close()
 
 
-def stream_number_to_variable_name(df,v):    
+def stream_number_to_variable_name(df,v):
     df_appended = pd.DataFrame()
     
     load_from_pkl = True
