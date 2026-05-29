@@ -3,8 +3,8 @@ import datetime as dt
 from fetch_data import *
 
 #User defined input, specify your wishes below
-start_date = dt.datetime(2025,06,01)           			#Start date (yyyy,mm,dd)
-end_date = dt.datetime(2025,06,08)            			#End date (yyyy,mm,dd)
+start_date = dt.datetime(2025,6,1)           			#Start date (yyyy,mm,dd)
+end_date = dt.datetime(2025,6,8)            			#End date (yyyy,mm,dd)
 site = 1                                     			#Site 1=Veenkampen, 2=Loobos, 3=Amsterdam
 variables = ['TA_1_1_1','RH_1_1_1','WS_1_1_1']                                 
 API_KEY = '<ApiKey>'        							#Put you API key here as a string, see https://maq-observations.nl/api/
