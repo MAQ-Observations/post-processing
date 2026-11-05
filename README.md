@@ -17,6 +17,6 @@ Random post-processing scripts using the data from MAQ-Obsevations, not part of 
 
 Please reach out to observations.maq@wur.nl in case of specific questions or requests.
 
-How to cite this material:
+How to cite this material: Visit our Data License (https://maq-observations.nl/maq-data-license/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16811523.svg)](https://doi.org/10.5281/zenodo.16811523)
 
